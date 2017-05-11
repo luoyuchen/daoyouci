@@ -3,17 +3,22 @@ var app = getApp();
 Page({
   data: {
     movies:[],
-    banners:['../../images/lvxingji.jpg','../../images/daoyouci.jpg','../../images/shijiezhimei.jpg','../../images/xue.jpg'],
+    banners:['../../images/lvyouji.jpg'],
     dots:true,
-    autoplay:true,//是否自动播放
+    autoplay:false,//是否自动播放
     text:"",
     gtext:"",
     isShow:false,
     gShow:false,
+    indicatordots:false,//面板指示点
     interval:5000, //自动播放间隔
     hots:[]
   },
-   
+  search:function(){
+    wx.navigateTo({
+      url: '/pages/search/search/search',
+    })
+  },
  
   detail:function(e){
     app.detail(e);

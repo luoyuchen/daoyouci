@@ -27,7 +27,7 @@ page{
 .swiper,
 .swiper .swiper-item,
 .swiper image{
-  height:150px;
+  height:200px;
   width:100%;
 }
 .movies .movies-info .meta .info{

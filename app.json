@@ -18,7 +18,8 @@
     "pages/scenic/shanhaiguan/llt",
     "pages/scenic/shanhaiguan/mjn",
     "pages/scenic/shanhaiguan/css",
-    "pages/scenic/shanhaiguan/js"
+    "pages/scenic/shanhaiguan/js",
+    "pages/search/search/search"
    
   ],
   "tabBar":{

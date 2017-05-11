@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<swiper class="swiper" indicator-dots="{{dots}}" autoplay="{{autoplay}}" interval="{{interval}}" style="width:100%;margin:0 auto;">
+<swiper class="swiper" indicator-dots="{{dots}}" indicator-dots="{{indicatordots}}" bindtap="search" autoplay="{{autoplay}}" interval="{{interval}}" style="width:100%;margin:0 auto;">
     <block wx:for="{{banners}}" wx:for-item="banner" >
         <swiper-item>
             <image src="{{banner}}"  ></image>
