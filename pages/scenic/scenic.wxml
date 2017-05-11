@@ -1,0 +1,39 @@
+<!--index.wxml-->
+
+<view class="classify">
+    <image src="/images/hot1.png"></image>
+    <text>山海关热门景区</text>
+</view>
+<view class="wrap">
+    <view class="btninfo">
+    <button class="btn btn0" bindtap="llt" ></button>
+    <text class="btntext">老龙头</text>
+    </view>
+    <view class="btninfo">
+    <button class="btn btn1" bindtap="mjn"></button>
+    <text class="btntext">孟姜女庙</text>
+    </view>
+</view>
+<view class="wrap">
+    <view class="btninfo">
+    <button class="btn btn2" bindtap="css" ></button>
+    <text class="btntext">长寿山</text>
+    </view>
+    <view class="btninfo">
+    <button class="btn btn3" bindtap="js"></button>
+    <text class="btntext">角山</text>
+    </view>
+</view>
+<!--<view class="wrap">
+    <view class="btninfo">
+    <button class="btn btn4" bindtap="shg" ></button>
+    <text class="btntext">测试</text>
+    </view>
+    <view class="btninfo">
+    <button class="btn btn5" bindtap="gugong"></button>
+    <text class="btntext">测试</text>
+    </view>
+</view>-->
+
+
+

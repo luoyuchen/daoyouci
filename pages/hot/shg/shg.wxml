@@ -1,0 +1,9 @@
+<view class="img"><image src="http://api.h6vr.com/static/shanhaiguan.jpg" mode="aspectFit"></image></view>
+<view class="audio"><audio   src="{{audio_src}}" loop="true" poster="{{audio_poster}}" name="{{audio_name}}" author="{{audio_author}}" controls="true"></audio></view>
+
+<view class="text">
+    <text>{{text}}</text>
+</view>
+
+<map longitude="119.76732" latitude="40.015892" scale="12" markers="{{markers}}" bindtap="openMap" style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>

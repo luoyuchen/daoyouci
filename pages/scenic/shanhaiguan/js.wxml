@@ -1,0 +1,22 @@
+<view class="img">
+<image src="http://api.h6vr.com/static/pic/shanhaiguan/shanhaiguan_jiaoshan.jpg" mode="scaleToFill"></image>
+ <!--播放器-->
+    <view class="playerholder">
+        <view class="cirlce" bindtap="audioPlay">
+            <view class="{{classfirst}}"></view>
+            <view class="{{classsecond}}"></view>
+            <view class="{{classthird}}"></view>
+        </view>
+        <!--<text class="albumtitle">Chillstep Lougue Mix</text>
+        <text class="autorname">Steve Wins</text>-->
+    </view>
+
+</view>
+<view class="audio"><audio   src="{{audio_src}}" loop="true" poster="{{audio_poster}}" name="{{audio_name}}" author="{{audio_author}}"  id="myAudio"></audio></view>
+
+<view class="text">
+    <text>{{text}}</text>
+</view>
+
+<map longitude="119.747389" latitude="40.040236" scale="12" markers="{{markers}}" bindtap="openMap" style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>

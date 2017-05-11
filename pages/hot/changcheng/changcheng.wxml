@@ -1,0 +1,4 @@
+<view class="img"><image src="http://api.h6vr.com/static/changcheng.jpg" mode="aspectFit"></image></view>
+<view class="text"><text>{{text}}</text></view>
+<map longitude="116.026520" latitude="40.363420" scale="13" markers="{{markers}}" bindtap="openMap" style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>

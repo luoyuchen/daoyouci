@@ -1,0 +1,22 @@
+<!--template.wxml-->
+<template name="moviesList">
+    <block wx:for="{{movies}}" wx:for-item="movie">
+        <view class="movies" catchtap="detail" data-id="{{movie.id}}">
+            <view class="movies-info" style="line-height: 50rpx">
+                <view class="meta">
+                <image class="poster" src="{{movie.img}}"></image>
+                <text class="info">景　点：{{movie.keys}}</text>
+                <text class="info">所在地：{{movie.area}}</text>
+                <text class="info">级　别：{{movie.grade}}</text>
+                </view>
+                <view class="textwrap" style="padding: 0 5%">
+                    <text class="text">{{movie.title}}</text>
+                </view>
+                
+                <!--<map longitude="{{movie.markers.longitude}}" latitude="{{movie.markers.latitude}}" scale="15" markers="{{[movie.markers]}}"  bindtap="openMap" style="width:100%;height:300px;margin:0 auto" ></map>
+                <button bindtap="openMap" style="width:100%">打开地图</button>-->
+
+            </view>
+        </view>
+    </block>
+</template>

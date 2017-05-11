@@ -1,0 +1,5 @@
+<view class="img"><image src="http://api.h6vr.com/static/lijiang.jpg" mode="aspectFit"></image></view>
+<view class="text"><text>{{text}}</text></view>
+<map longitude="100.243527" latitude="26.877143" scale="14" markers="{{markers}}" bindtap="openMap" style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>
+

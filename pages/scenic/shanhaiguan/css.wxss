@@ -1,0 +1,135 @@
+.text{
+    padding: 0 5%;
+    color:#666;
+    font-size:30rpx;
+    line-height: 50rpx;
+}
+.img{
+    text-align: center;
+    width:100%;
+    height: 250px;
+    margin-bottom: 20px;
+   position: relative;
+  
+}
+image{width: 100%;height:100%;}
+.audio{display: flex;justify-content:space-around;margin-bottom:50rpx }
+
+
+
+/*播放器 开始*/
+.playerholder {
+  width: 100%;
+  height: 11rem;
+  position: absolute;
+  top:110px;
+  left:80px;
+  text-align: center;
+}
+.cirlce {
+  display: inline-block;
+  width: 6.3rem;
+  height: 6.3rem;
+  border-radius: 6rem;
+  border: 3px solid rgba(250, 250, 250, 0.7);
+  position: relative;
+}
+.albumtitle {
+  display: block;
+  color: #FFFFFF;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 0.8rem;
+}
+.autorname {
+  display: block;
+  color: #FFFFFF;
+  font-size: 12px;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.innerline {
+  display: inline-block;
+  width: 3px;
+  background-color: rgba(250, 250, 250, 0.7);
+  position: absolute;
+  border-radius: 10rem;
+  -webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
+}
+.stopfirst {
+  left: 2.6rem;
+  height: 2rem; 
+  bottom: 2.1rem;
+}
+.animatefirst {
+  position: absolute;
+  bottom: 2em;
+  left: 2.2rem;
+  -webkit-animation-name: animatefirst; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: animatefirst;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+@keyframes animatefirst {
+    0%   {height: 0.5rem;}
+    25%  {height: 1.6rem;}
+    50%  {height: 0.8rem;}
+    75%  {height: 1.4rem;}
+    100% {height: 0.5rem;}
+}
+.stopthird {
+  height: 2rem; 
+  bottom: 2.6rem;
+  right: 2.7rem;
+  -ms-transform: rotate(-60deg); /* IE 9 */
+  -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+  transform: rotate(-60deg);
+}
+.animatethird {
+  position: absolute;
+  bottom: 2em;
+  right: 2.2rem;
+  -webkit-animation-name: animatethird; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: animatethird;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+@keyframes animatethird {
+    0%   {height: 1rem;}
+    25%  {height: 0.3rem;}
+    50%  {height: 2rem;}
+    75%  {height: 0.2rem;}
+    100% {height: 1rem;}
+}
+.stopsecond {
+  height: 2rem; 
+  bottom: 1.6rem;
+  right: 2.7rem;
+  -ms-transform: rotate(60deg); /* IE 9 */
+  -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+  transform: rotate(60deg);
+}
+.animatesecond {
+  left: 3.05rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 2rem;
+  -webkit-animation-name: animatesecond; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: animatesecond;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+@keyframes animatesecond {
+    0%   {height: 2.2rem;}
+    25%  {height: 0.5rem;}
+    50%  {height: 1.3rem;}
+    75%  {height: 0.8rem;}
+    100% {height: 2.2rem;}
+}

@@ -1,0 +1,5 @@
+<view class="img"><image src="http://api.h6vr.com/static/wuzhen.jpg" mode="aspectFit"></image></view>
+<view class="text"><text>{{text}}</text></view>
+<map longitude="120.488030" latitude="30.748410" scale="15" markers="{{markers}}"  bindtap="openMap" style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>
+

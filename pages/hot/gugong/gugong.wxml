@@ -1,0 +1,5 @@
+<!--pages/gugong/gugong.wxml-->
+<view class="img"><image src="http://api.h6vr.com/static/gugong.jpg" mode="aspectFit" a></image></view>
+<view class="text"><text>{{text}}</text></view>
+<map longitude="116.397040" latitude="39.915390" markers="{{markers}}" scale="13" bindtap="openMap"  style="width:90%;height:300px;margin:0 auto" ></map>
+<button bindtap="openMap" style="width:90%">打开地图</button>

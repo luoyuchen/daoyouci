@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/hot/shg/shg",
+    "pages/hot/goto/goto",
+    "pages/hot/gugong/gugong",
+    "pages/hot/wds/wds",
+    "pages/hot/lijiang/lijiang",
+    "pages/hot/changcheng/changcheng",
+    "pages/hot/wuzhen/wuzhen",
+    "pages/hot/jiuzhaigou/jiuzhaigou",
+    "pages/hot/budalagong/budalagong",
+    "pages/mine/mine",
+    "pages/mine/about",
+    "pages/scenic/scenic",
+    "pages/scenic/shanhaiguan/llt",
+    "pages/scenic/shanhaiguan/mjn",
+    "pages/scenic/shanhaiguan/css",
+    "pages/scenic/shanhaiguan/js"
+   
+  ],
+  "tabBar":{
+    "backgroundColor":"#fff",
+    "color":"#8b8a92",
+    "selectedColor": "#f18118",
+    "borderStyle": "#c2c2c2",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "iconPath":"images/hoted.png",
+      "selectedIconPath":"images/hot.png",
+      "text":"热门"
+    },
+    {
+      "pagePath":"pages/search/search",
+      "iconPath":"images/searchd.png",
+      "selectedIconPath":"images/search.png",
+      "text":"搜索"
+    },
+    {
+      "pagePath":"pages/mine/mine",
+      "iconPath":"images/mined.png",
+      "selectedIconPath":"images/mine.png",
+      "text":"我的"
+    }]
+  }
+}

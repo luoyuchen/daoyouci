@@ -1,0 +1,11 @@
+.text{
+    padding: 0 5%;
+    color:#666;
+    font-size:30rpx;
+    line-height: 50rpx;
+}
+.img{
+    
+    text-align: center
+}
+image{width: 100%}

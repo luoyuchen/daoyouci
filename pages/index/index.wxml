@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<swiper class="swiper" indicator-dots="{{dots}}" autoplay="{{autoplay}}" interval="{{interval}}" style="width:100%;margin:0 auto;">
+    <block wx:for="{{banners}}" wx:for-item="banner" >
+        <swiper-item>
+            <image src="{{banner}}"  ></image>
+        </swiper-item>
+    </block>
+</swiper>
+<view>
+    <import src="../template/template.wxml"/>
+    <template is="moviesList" data="{{movies}}"></template>
+</view>
+<view class="classify">
+    <image src="/images/hot.png"></image>
+    <text>热门推荐</text>
+</view>
+<view class="btninfo">
+<button class="btn btn0" bindtap="shg"></button>
+<text class="btntext">山海关</text>
+</view>
+<view class="btninfo">
+<button class="btn btn1" bindtap="toast"></button>
+<text class="btntext">张家界</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn2" bindtap="gugong"></button>
+<text class="btntext">故宫</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn3" bindtap="wds"></button>
+<text class="btntext">武当山</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn4" bindtap="lijiang"></button>
+<text class="btntext">丽江</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn5" bindtap="changcheng"></button>
+<text class="btntext">长城</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn6" bindtap="wuzhen"></button>
+<text class="btntext">乌镇</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn7" bindtap="jiuzhaigou"></button>
+<text class="btntext">九寨沟</text>
+</view>
+<view class="btninfo">
+<button  class="btn btn8" bindtap="budalagong"></button>
+<text class="btntext">布达拉宫</text>
+</view>
+

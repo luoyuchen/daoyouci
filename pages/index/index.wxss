@@ -1,0 +1,103 @@
+/**index.wxss**/
+.text{
+    padding: 0 5%;
+    color:#fff;
+    font-size:14px;
+    line-height: 35px;
+}
+.btntext{
+    position: absolute;
+    top:22rpx;
+    left: 59rpx;
+    z-index: 2;
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px #000;
+    font-family: Courier New, Courier, monospace
+}
+.btninfo{
+    position: relative
+}
+.btn{
+    width: 99%;
+    height: 10rem;
+    margin-top:0.5rem;
+    background-color: lightseagreen;
+    color:#fff;
+    line-height: 4rem;
+    font-size: 25px;
+    box-shadow:0 10rpx 10rpx  #ccc
+}
+.btn0{
+    background-image: url("http://api.h6vr.com/static/shanhaiguan.jpg");
+    background-size: cover;
+}
+.btn1{
+    background-image: url("http://api.h6vr.com/static/zhangjiajie.jpg");
+    background-size: cover;
+}
+.btn::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 99%;
+  height: 100%;
+  border-top-left-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+  background: linear-gradient(to right,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 100%);
+}
+.btn2{
+  background-image: url("http://api.h6vr.com/static/gugong.jpg");
+    background-size: cover
+}
+.btn3{
+    background-image: url("http://api.h6vr.com/static/wudangshan.jpg");
+    background-size: cover
+}
+.btn4{
+    background-image: url("http://api.h6vr.com/static/lijiang.jpg");
+    background-size: cover
+}
+.btn5{
+    background-image: url("http://api.h6vr.com/static/changcheng.jpg");
+    background-size: cover
+}
+.btn6{
+    background-image: url("http://api.h6vr.com/static/wuzhen.jpg");
+    background-size: cover
+}
+.btn7{
+    background-image: url("http://api.h6vr.com/static/jiuzhaigou.jpg");
+    background-size: cover
+}
+.btn8{
+    background-image: url("http://api.h6vr.com/static/budalagong.jpg");
+    background-size: cover
+}
+audio{
+    display: inline-block;
+    text-align: center
+}
+.classify{
+     margin-top: 40rpx;
+    height: 60rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+.classify image{
+    display: inline-block;
+    width: 60rpx;
+    height:60rpx;
+    padding-left: 30rpx
+    
+}
+.classify text{
+    display: inline-block;
+    font-family: 'Gill Sans';
+    color: #f18118;
+
+}

@@ -1,0 +1,100 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="black-cover"></view>
+    <image class="logo" src="/images/lvxingji.jpg"></image>
+    <image class="title" src="/images/title.png"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">导游词</text>
+        <text class="version-text">{{version}}</text>
+        <!--<text class="version-text">正式版</text>-->
+      </view>
+      <view bindtap="toggleLog">
+        <text class="version-log-link update-log" wx:if="{{!showLog}}">更新日志</text> 
+        <text class="version-log-link" wx:else>简介</text> 
+      </view>
+    </view>
+    <view class="describe" wx:if="{{!showLog}}">
+        <text class="desc-title">简介</text>
+        <view class="desc-list">
+          <text class="desc-list-item">官网：http://www.h6vr.com</text>
+        </view>
+        <text class="desc-content">导游词是一款微信小程序，由嗨六科技有限公司开发，有别于公众号的一种全新的连接用户与服务的方式，无需下载与安装即可在微信内被便捷地获取和传播，同时具有出色的使用体验。</text>
+        <text class="desc-content">导游词整合了碎片化的资源，适用于景区和个人，集景点查询、景点介绍、语音解说、导航定位等功能于一身。</text>
+        <text class="desc-content">导游词的其他功能... （会陆续为您呈现）</text>
+    </view>
+    <view class="log-list" wx:else>
+      <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.6</text>
+            <text class="desc-time">2017.03.20</text>
+          </view>
+          <text class="desc-content">优化搜索、界面调整</text>
+          <view class="desc-list">
+            <text class="desc-list-item"></text>
+          </view>
+      </view>
+        <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.5</text>
+            <text class="desc-time">2017.03.16</text>
+          </view>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">新增部分景区二级景点、增加部分语音解说</text>
+          </view>
+      </view>
+    <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.4</text>
+            <text class="desc-time">2017.01.17</text>
+          </view>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">新增景区分级、所属地区、索引图</text>
+          </view>
+      </view>
+    <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.3</text>
+            <text class="desc-time">2017.01</text>
+          </view>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">优化搜索、界面调整</text>
+          </view>
+      </view>
+      <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.2</text>
+            <text class="desc-time">2017.01</text>
+          </view>
+          <text class="desc-content">修复BUG</text>
+          <view class="desc-list">
+            <text class="desc-list-item">修复部分景区无法搜索的问题</text>
+          </view>
+          <text class="desc-content">优化完善</text>
+          <view class="desc-list">
+            <text class="desc-list-item">新增多条5A景区名单</text>
+          </view>
+      </view>
+      <view class="describe">
+          <view class="desc-title">
+            <text class="desc-v">v1.0.0 </text>
+            <text class="desc-time">2017.01</text>
+          </view>
+          <text class="desc-content">公测</text>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-h6">
+        <image src="/images/mine.png"></image>
+        <text>北京嗨六科技有限公司</text>
+    </view>
+    <text>Copyright @ {{year}} All Rights Reserved</text>
+  </view>
+</view>
